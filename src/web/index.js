@@ -1,5 +1,6 @@
+import * as Button from './basics/button/button.js';
+
 var Hig = {};
+Hig.Button = Button;
 
-Hig.Button = require('./basics/button/button.js');
-
-module.exports = Hig;
+export default Hig;

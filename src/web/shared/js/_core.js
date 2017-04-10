@@ -1,4 +1,4 @@
-var Mustache = require('mustache');
+import * as Mustache from 'mustache';
 
 class Core {
 
@@ -155,4 +155,4 @@ class Core {
 
 }
 
-module.exports = Core;
+export default Core;

@@ -1,8 +1,8 @@
 import './button.scss';
 
-var Template = require('./button.html');
-var Interface = require('../../../interface/interface.json');
-var Core = require('../../shared/js/_core.js');
+import Template from './button.html';
+import Interface from '../../../interface/interface.json';
+import Core from '../../shared/js/_core.js';
 
 /**
  * Creates an button
@@ -10,7 +10,7 @@ var Core = require('../../shared/js/_core.js');
  * @class
  */
 
-class Button extends Core {
+export class Button extends Core {
 
     constructor(target, options){
         super(options);
@@ -45,5 +45,3 @@ Button._defaults = {
     title: "link",
     link: "#"
 };
-
-module.exports = Button;
